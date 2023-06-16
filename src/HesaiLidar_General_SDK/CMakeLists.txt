@@ -3,7 +3,7 @@ project(PandarGeneralSDK)
 
 find_package( Boost REQUIRED  COMPONENTS thread)
 find_package( PCL REQUIRED COMPONENTS common )
-
+find_package(Eigen3 REQUIRED)
 # set (CMAKE_CXX_FLAGS "-fPIC --std=c++11")
 ADD_COMPILE_OPTIONS(-std=c++11 )
 ADD_COMPILE_OPTIONS(-std=c++14 )
@@ -16,6 +16,7 @@ include_directories(
     src/PandarGeneralRaw/include
     ${Boost_INCLUDE_DIRS}
     ${PCL_INCLUDE_DIRS}
+    ${EIGEN3_INCLUDE_DIR}
 )
 
 add_library( ${PROJECT_NAME} SHARED
