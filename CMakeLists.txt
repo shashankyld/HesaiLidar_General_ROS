@@ -69,6 +69,7 @@ add_library(PandarGeneralSDK SHARED
     src/HesaiLidar_General_SDK/src/tcp_command_client.c
     src/HesaiLidar_General_SDK/src/util.c
 )
+add_dependencies(PandarGeneral hesai_lidar_generate_messages_cpp)
 target_include_directories(PandarGeneralSDK PRIVATE
     src/HesaiLidar_General_SDK/
     src/HesaiLidar_General_SDK/include/
