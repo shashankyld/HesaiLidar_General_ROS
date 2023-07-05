@@ -58,6 +58,9 @@ target_link_libraries(PandarGeneral
     ${PCL_IO_LIBRARIES}
     Boost::thread
     pcap
+    tf2
+    tf2_ros
+    tf2_geometry_msgs
     # ${ament_LIBRARIES}
 )
 
