@@ -78,7 +78,7 @@ target_include_directories(PandarGeneralSDK PRIVATE
     ${PCL_INCLUDE_DIRS}
     # ${YAML_CPP_INCLUDE_DIRS}
 )
-
+add_dependencies(PandarGeneralSDK hesai_lidar_generate_messages_cpp)
 target_link_libraries(PandarGeneralSDK 
     PandarGeneral
     ${Boost_LIBRARIES}
