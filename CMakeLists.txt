@@ -63,7 +63,7 @@ target_link_libraries(PandarGeneral
     tf2
     tf2_ros
     tf2_geometry_msgs
-    # ${ament_LIBRARIES}
+    ${ament_LIBRARIES}
 )
 
 rosidl_target_interfaces(PandarGeneral  ${PROJECT_NAME} "rosidl_typesupport_cpp")
