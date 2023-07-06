@@ -1,6 +1,9 @@
 cmake_minimum_required(VERSION 2.8)
 project(PandarGeneralSDK)
 
+find_package(tf2 REQUIRED)
+find_package(tf2_ros REQUIRED)
+find_package(tf2_geometry_msgs REQUIRED)
 find_package( Boost REQUIRED  COMPONENTS thread)
 find_package( PCL REQUIRED COMPONENTS common )
 find_package(Eigen3 REQUIRED)
@@ -31,6 +34,10 @@ target_link_libraries(${PROJECT_NAME}
     ${PCL_IO_LIBRARIES}
     Boost::thread
     pcap
+    tf2
+    tf2_ros
+    tf2_geometry_msgs
+    
 )
 # if(${CMAKE_SOURCE_DIR} STREQUAL ${CMAKE_CURRENT_SOURCE_DIR})
 #     find_package(PCL REQUIRED)
