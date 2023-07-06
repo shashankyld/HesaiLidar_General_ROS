@@ -16,7 +16,7 @@
   <depend>ament_index_cpp</depend>
   <depend>rclcpp</depend>
   <depend>rclcpp_action</depend>
-  <depend>tf2_ros</depend>
+  # <depend>tf2_ros</depend>
   <exec_depend>tf2</exec_depend>
   <build_export_depend>tf2</build_export_depend>
   <exec_depend>tf2_ros</exec_depend>
