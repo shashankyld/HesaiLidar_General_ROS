@@ -53,7 +53,7 @@ target_include_directories(PandarGeneral PRIVATE
     src/HesaiLidar_General_SDK/src/PandarGeneralRaw/
     ${Boost_INCLUDE_DIRS}
     ${PCL_INCLUDE_DIRS}
-    # ${ament_INCLUDE_DIRS}
+    ${ament_INCLUDE_DIRS}
 )
 target_link_libraries(PandarGeneral
     ${Boost_LIBRARIES}
