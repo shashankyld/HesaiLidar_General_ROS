@@ -23,6 +23,8 @@ find_package(sensor_msgs REQUIRED)
 find_package(tf2_geometry_msgs REQUIRED)
 find_package(rcutils REQUIRED)
 find_package(geometry_msgs REQUIRED)
+find_package(tf2 REQUIRED)
+find_package(tf2_ros REQUIRED)
 
 # install(FILES DESTINATION share/${PROJECT_NAME})
 # ament_export_dependencies(rosidl_default_runtime)
@@ -107,6 +109,8 @@ ament_target_dependencies(hesai_lidar_node
   "sensor_msgs"
   "std_msgs"
   "tf2_geometry_msgs"
+  "tf2"
+  "tf2_ros"
 )
 
 target_include_directories(hesai_lidar_node PRIVATE
