@@ -12,7 +12,13 @@ sudo apt isntall net-tools
 ```bash
 ifconfig
 ```
-
+4. Usually eno1 is the LAN port
+```bash
+# Set ip addr for eno1 to match the lidar's ip range
+sudo ifconfig eno1 131.220.233.230
+```
+5. Check ip of lidar from wireshark
+6. Verify the change in ip addr of eno1 by check ifconfig
 
 
 
