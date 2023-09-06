@@ -2,6 +2,32 @@
 
 # HesaiLidar_General_ROS
 
+### SOME PRE-REQUISITES
+1. Connect Lidar to PC
+2. Install net-tools
+```bash
+sudo apt isntall net-tools
+```
+3. Check current ip-addr
+```bash
+ifconfig
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## About the project
 HesaiLidar_General_ROS project includes the ROS Driver for：  
 **PandarQT/Pandar64/Pandar40P/Pandar20A/Pandar20B/Pandar40M/PandarXT**  
