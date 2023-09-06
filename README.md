@@ -18,7 +18,8 @@ ifconfig
 sudo ifconfig eno1 131.220.233.230
 ```
 5. Check ip of lidar from wireshark
-6. Verify the change in ip addr of eno1 by check ifconfig
+6. Verify the change in ip addr of eno1 by check ifconfig- This keeps on changing somehow
+7. Makesure the destination IP in the lidar website settings should be the local ip on your machine
 
 
 
