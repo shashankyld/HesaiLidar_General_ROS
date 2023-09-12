@@ -26,7 +26,9 @@ roslaunch hesai_lidar cloud_nodelet.launch lidar_type:="PandarXT-32" frame_id:="
 ```
 9. Alfredo IP
 ```bash
-131.220.233.153```
+131.220.233.153
+```
+
 ```bash
 ssh alfredo@131.220.233.153
 ```
