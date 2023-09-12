@@ -39,7 +39,7 @@ ssh alfredo@131.220.233.153
 ```
 10. Running Docker
 '''bash
-docker run -v /config/:/workspace/rosworkspace/src/HesaiLidar_General_ROS/config/  -it --rm -e DISPLAY=$DISPLAY -v /tmp/.X11-unix:/tmp/.X11-unix <image-name> 
+docker run -v /config/:/workspace/rosworkspace/src/HesaiLidar_General_ROS/config/  -it --rm -e DISPLAY=$DISPLAY -v /tmp/.X11-unix:/tmp/.X11-unix ipbalfredo/hesai-node:noetic
 ```
 
 
