@@ -14,7 +14,7 @@ ifconfig
 ```
 4. Usually eno1 is the LAN port
 ```bash
-# Set ip addr for eno1 to match the lidar's ip range
+# Set ip addr for eno1 to match the lidar's ip range - check lidar config webpage - receiving ip settings
 sudo ifconfig eno1 131.220.233.230
 ```
 5. Check ip of lidar from wireshark
