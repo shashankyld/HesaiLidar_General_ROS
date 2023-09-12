@@ -3,9 +3,17 @@
 # HesaiLidar_General_ROS
 
 ### Tasks
-1. Get Hesai docker working
-2. Test ros-bridge
-3. Search about GPS - f9p - ros2 package 
+1. [DONE] Build Hesai docker 
+2. Configure Network for docker to access the lidar
+3. Test ros-bridge
+```bash
+https://github.com/ros2/ros1_bridge
+```
+5. Search about GPS - f9p - ros2 package
+```bash
+https://github.com/shashankyld/ros2-ublox-zedf9p
+```
+   
 
 ### SOME PRE-REQUISITES
 1. Connect Lidar to PC
