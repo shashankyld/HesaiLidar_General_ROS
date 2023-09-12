@@ -2,6 +2,11 @@
 
 # HesaiLidar_General_ROS
 
+### Tasks
+1. Get Hesai docker working
+2. Test ros-bridge
+3. Search about GPS - f9p - ros2 package 
+
 ### SOME PRE-REQUISITES
 1. Connect Lidar to PC
 2. Install net-tools
