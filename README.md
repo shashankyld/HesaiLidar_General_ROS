@@ -13,7 +13,10 @@ https://github.com/ros2/ros1_bridge
 ```bash
 https://github.com/shashankyld/ros2-ublox-zedf9p
 ```
-   
+6. Check orbslam3_docker
+7. Setup generic ros1 docker - ros2 docker bridge
+8. push hesai_docker to gitlab and run it on the robot
+
 
 ### SOME PRE-REQUISITES
 1. Connect Lidar to PC
