@@ -51,6 +51,32 @@ docker run -v /config/:/workspace/rosworkspace/src/HesaiLidar_General_ROS/config
 ```
 
 
+## STEPS TO GET HESAI DOCKER RUNNING
+```bash
+make up
+```
+```bash
+make enter
+```
+```bash
+# Check ROS_MASTER_URI - expected
+http://localhost:11311
+```
+```bash
+# Ensure network is host for the docker
+# Do this by observing same output for ifconfig
+```
+```bash
+# Ensure destination port is the same as the one from ifconfig
+```
+```bash
+cd /workspace/rosworkspace/src/HesaiLidar_General_ROS/launch/config
+roslaunch hesai_lidar_alfredo.launch lidar_type:="PandarXT-32" frame_id:="PandarXT-32"
+```
+```bash
+rviz
+# Dont forget to set Fixed Frame as "PandarXT-32"
+```
 
 
 
